@@ -17,18 +17,16 @@ h1 {
     grid-template-columns: auto auto auto;
     gap: 10px;
     padding: 16px 20px 10px 20px;
-
 }
-.item{
+
+.item {
     width: 100%;
 }
+
 .ABC > div {
     text-align: center;
     font-size: 30px;
     border: solid black;
-    
-   
-
 }
 
 p {
@@ -36,33 +34,30 @@ p {
 }
 
 @media only screen and (max-width: 600px) {
-    .ABC p footer{
-       flex-wrap: wrap;
+    .ABC h1 p footer {
+        flex-wrap: wrap;
     }
 
-
     @media only screen and (min-width: 600px) {
-        .ABC p footer {
-         flex-wrap: wrap;
+        .ABC h1 p footer {
+            flex-wrap: wrap;
         }
     }
 
     @media only screen and (min-width: 768px) {
-        .ABC p footer{
-           flex-wrap: wrap;
+        .ABC h1 p footer {
+            flex-wrap: wrap;
         }
     }
-
 
     @media only screen and (min-width: 992px) {
-        .ABC  p footer{
-           display: flex;
+        .ABC h1 p footer {
+            display: flex;
         }
     }
 
-
     @media only screen and (min-width: 1200px) {
-        .ABC  p footer{
+        .ABC  h1 p footer {
             flex-wrap: wrap;
         }
     }
