@@ -1,4 +1,112 @@
-*{
+* {
     box-sizing: border-box;
 }
- 
+
+body {
+    background-image: url("image/0499c5d9d0c0467d822ea684db37d1fa.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    background-color: cadetblue;
+    text-align: center;
+
+}
+
+#demo {
+    background-color: rgb(130, 246, 130);
+    border: 3px solid black;
+    width: fit-content;
+    border-radius: 6px;
+}
+
+#demo1 {
+    background-color: rgb(245, 162, 178);
+    border: 3px dotted yellow;
+    width: fit-content;
+    border-radius: 6px;
+
+
+}
+
+#demo2 {
+    background-color: rgb(253, 166, 184);
+    border: 3px dotted yellow;
+    width: fit-content;
+    border-radius: 6px;
+
+
+}
+
+button:focus {
+    background-color: rgb(255, 98, 0);
+}
+
+#demo3 {
+    background-color: rgb(130, 246, 130);
+    border: 3px solid black;
+    width: fit-content;
+    border-radius: 6px;
+}
+
+#demo4 {
+    background-color: rgb(130, 246, 130);
+    border: 3px solid black;
+    width: fit-content;
+    border-radius: 6px;
+}
+
+#gg {
+    background-color: rgb(130, 246, 130);
+    border: 3px solid black;
+    width: fit-content;
+    border-radius: 6px;
+}
+
+#hh {
+    background-color: rgb(130, 246, 130);
+    border: 3px solid black;
+    width: fit-content;
+    border-radius: 6px;
+}
+
+#nn {
+    background-color: rgb(130, 246, 130);
+    border: 3px solid black;
+    width: fit-content;
+    border-radius: 6px;
+}
+
+#lo {
+    background-color: rgb(130, 246, 130);
+    border: 3px solid black;
+    width: fit-content;
+    border-radius: 6px;
+}
+
+#lp {
+    background-color: rgb(130, 246, 130);
+    border: 3px solid black;
+    width: fit-content;
+    border-radius: 6px;
+}
+
+#lm {
+    background-color: rgb(130, 246, 130);
+    border: 3px solid black;
+    width: fit-content;
+    border-radius: 6px;
+}
+#oo {
+    background-color: rgb(130, 246, 130);
+    border: 3px solid black;
+    width: fit-content;
+    border-radius: 6px;
+}
+#uu {
+    background-color: rgb(130, 246, 130);
+    border: 3px solid black;
+    width: fit-content;
+    border-radius: 6px;
+}
