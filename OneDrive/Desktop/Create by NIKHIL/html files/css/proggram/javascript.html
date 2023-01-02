@@ -53,6 +53,7 @@
     <p id="pn"></p>
     <p id="er"></p>
     <p id="kj">please check hello...</p>
+    <p id="qy">I love my cat .i love my cat . i love my cat.</p>
     <script>
         //  Arethmetic opration 
         document.getElementById('demo3').innerHTML = (60 + 80);
@@ -188,15 +189,22 @@
         function myFunction() {
             let text = document.getElementById("kj").innerHTML;
             document.getElementById("kj").innerHTML = 
-            text.replace("please","no");
+            text.toUpperCase();
         }
-
+        function my(){
+            let text=document.getElementById("qy").innerHTML;
+            document.getElementById("qy").innerHTML=
+            text.replace("cat","dog");
+        }
     </script>
 
 
     <!-- Date time -->
-    <button onclick="document.getElementById('bb').innerHTML= Date()"> hello..?</button>
-    <button onclick="myFunction()">Try it</button>
+    <button onclick="document.getElementById('bb').innerHTML= Date()"> hello..?</button><br>
+    <br>
+    <button onclick="myFunction()">Try it</button><br>
+    <br>
+    <button onclick="my()">hyy</button>
 </body>
 
 </html>
