@@ -36,8 +36,6 @@
 
 
     <p id="demo3"></p>
-
-
     <p id="demo4"></p>
     <p id="gg"></p>
     <p id="hh"></p>
@@ -47,7 +45,16 @@
     <p id="lm"></p>
     <p id="oo"></p>
     <p id="uu"></p>
+    <p id="cc"></p>
+    <p id="bb"></p>
+    <p id="zz"></p>
+    <p id="n_class"></p>
+    <p id="b_class"></p>
+    <p id="pn"></p>
+    <p id="er"></p>
+    <p id="kj">please check hello...</p>
     <script>
+        //  Arethmetic opration 
         document.getElementById('demo3').innerHTML = (60 + 80);
         let a = 3;
         let o = (100 + 50) * a;
@@ -57,6 +64,10 @@
         let text5 = "you doing.";
         let text3 = text4 + "" + text5;
         document.getElementById('gg').innerHTML = text3;
+
+
+
+        // javascript function 
 
         let p = 10 + 10;
         let q = "20" + 7;
@@ -80,6 +91,8 @@
 
 
 
+
+        // create  an object
         const person = {
             firstName: "hello",
             lastName: "my",
@@ -87,24 +100,103 @@
             eyeColor: "blue"
         };
 
+        // display some data from the
         document.getElementById("lm").innerHTML =
             person.firstName + " is " + person.age + " years old.";
 
         function myfunction(k, h) {
             return k * h;
         }
-        var d = myfunction(56 , 56);
-        document.getElementById('oo').innerHTML = d;
 
-        
 
-        function tocol(f){
-            return (5/9)*(f-32);    
+        var d = myfunction(56, 56);
+        document.getElementById("oo").innerHTML = d;
+
+
+        // function call
+        function tocol(f) {
+            return (5 / 9) * (f - 32);
         }
-        document.getElementById('uu').innerHTML=tocol(77);
+        document.getElementById("uu").innerHTML = tocol(77);
+
+        let f = 90;
+        g = 80;
+        k = 70;
+        document.getElementById("cc").innerHTML = f + g + (90 + 80);
+
+
+
+        // let carName1 = "Volvo XC60"; // Double quotes
+        // let carName2 = 'Volvo XC60'; // Single quotes
+
+        // document.getElementById("demo").innerHTML =
+        // carName1 + " " + carName2; 
+
+        let name1 = "Hitesh";
+        let surname = 'Rajput';
+        document.getElementById("zz").innerHTML = name1 + "" + surname;
+
+
+
+
+
+        //         let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        // document.getElementById("demo").innerHTML = text.length;
+
+        let number = "3333333333333333222222653988222112102004567891230123654789654123012356789456987412355985635268965989";
+        document.getElementById("n_class").innerHTML = number.length;
+
+        // let x = "John";        // x is a string
+        // let y = new String("John");  // y is an object
+        // document.getElementById("demo").innerHTML = (x == y);
+
+
+
+
+        // let P="no";
+        // let n= new String("no");
+        // document.getElementById("b_class").innerHTML=(p == n);
+
+
+        // javascript string 
+        // slice method
+        let text = " apple , banana , kiwi , mengo";
+        let part = text.slice(18, 23);
+        document.getElementById("pn").innerHTML = part;
+
+
+        // let str = "Apple, Banana, Kiwi";
+        // document.getElementById("demo").innerHTML = str.substr(7,6);
+
+        let str = "apple,banana,mengo,orange";
+        document.getElementById("er").innerHTML = str.substr(6, 7);
+
+
+
+
+        // <button onclick="myFunction()">Try it</button>
+
+        //         function myFunction() {
+        //   let text = document.getElementById("demo").innerHTML;
+        //   document.getElementById("demo").innerHTML =
+        //   text.replace("Microsoft","W3Schools");
+        // }
+
+
+        // <button onclick="myfunction()">tgr</button>
+
+        function myFunction() {
+            let text = document.getElementById("kj").innerHTML;
+            document.getElementById("kj").innerHTML = 
+            text.replace("please","no");
+        }
 
     </script>
 
+
+    <!-- Date time -->
+    <button onclick="document.getElementById('bb').innerHTML= Date()"> hello..?</button>
+    <button onclick="myFunction()">Try it</button>
 </body>
 
 </html>

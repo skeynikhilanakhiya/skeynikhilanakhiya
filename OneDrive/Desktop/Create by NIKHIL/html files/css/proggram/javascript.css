@@ -40,7 +40,7 @@ h1 {
 }
 
 button:focus {
-    background-color: rgb(255, 98, 0);
+    background-color: rgb(232, 152, 103);
 }
 
 #demo3 {
@@ -98,15 +98,56 @@ button:focus {
     width: fit-content;
     border-radius: 6px;
 }
+
 #oo {
     background-color: rgb(130, 246, 130);
     border: 3px solid black;
     width: fit-content;
     border-radius: 6px;
 }
+
 #uu {
     background-color: rgb(130, 246, 130);
     border: 3px solid black;
     width: fit-content;
     border-radius: 6px;
+}
+
+#cc {
+    background-color: rgb(130, 246, 130);
+    border: 3px solid black;
+    width: fit-content;
+    border-radius: 6px;
+}
+
+#zz {
+    background-color: rgb(130, 246, 130);
+    border: 3px solid black;
+    width: fit-content;
+    border-radius: 6px;
+}
+
+#n_class {
+    background-color: rgb(130, 246, 130);
+    border: 3px solid black;
+    width: fit-content;
+    border-radius: 6px;
+}
+#b_class {
+    background-color: rgb(130, 246, 130);
+    border: 3px solid black;
+    width: fit-content;
+    border-radius: 6px;
+}
+#pn {
+    background-color: rgb(130, 246, 130);
+    border: 3px solid black;
+    width: fit-content;
+    border-radius: 6px;
+}
+#er{
+    background-color: rgb(130, 246, 130);
+    border: 3px solid black;
+    width: fit-content;
+    border-radius: 6px; 
 }
