@@ -48,7 +48,7 @@ p{
     width: fit-content;
     border-radius: 6px;
 }
-}
+
 #demo3 {
     background-color: rgb(130, 246, 130);
     border: 3px solid black;
@@ -156,4 +156,28 @@ p{
     border: 3px solid black;
     width: fit-content;
     border-radius: 6px; 
+}
+#task{
+    background-color: rgb(130, 246, 130);
+    border: 3px solid black;
+    width: fit-content;
+    border-radius: 6px; 
+}
+#bdiv{
+    background-color: rgb(130, 246, 130);
+    border: 3px solid black;
+    width: fit-content;
+    border-radius: 6px;
+}
+#bdiva{
+    background-color: rgb(130, 246, 130);
+    border: 3px solid black;
+    width: fit-content;
+    border-radius: 6px;
+}
+#jon{
+    background-color: rgb(130, 246, 130);
+    border: 3px solid black;
+    width: fit-content;
+    border-radius: 6px;
 }
