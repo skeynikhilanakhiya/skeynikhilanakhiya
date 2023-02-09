@@ -545,3 +545,21 @@ background: linear-gradient(to bottom, #ef473a, #cb2d3e);
 .user__info > small {
   color: #666;
 }
+.gallery {
+    margin: 10px 40px;
+}
+
+.gallery img {
+    width: 200px;
+    height: 50px;
+    transition: 1s;
+    padding: 5px;
+}
+
+.gallery img:hover {
+    filter: drop-shadow(4px 4px 6px gray);
+    transform: scale(1.1);
+}
+b{
+    text-align: center;
+}
