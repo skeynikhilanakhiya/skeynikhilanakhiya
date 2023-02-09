@@ -1,21 +1,16 @@
 <template>
-<h2 v-if="show">If Else condition</h2>
-<h2 v-else> else condition </h2>
-
-<br>
+<h2> Pass Data To Child Components</h2>
+<Child></Child>
 </template>
 
-<!-- POST METOD API -->
-
 <script>
+import Child from './Child.vue'
 export default {
     name: 'app',
-    data() {
-        return {
-            show: false
-
-        }
+    components : {
+        Child
     }
+
 }
 </script>
 
