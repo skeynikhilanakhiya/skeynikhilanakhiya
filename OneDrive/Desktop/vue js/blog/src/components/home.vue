@@ -1,44 +1,30 @@
 <template>
-<h2 class="abc"> Reuse component</h2>
-<user />
-<ul>
-    <li v-for="item in users" :key="item.name">
-        {{ item.name }}
-        {{item.email }}
-    </li>
-</ul>
+<h2 class="StaticClass" :class="adstyle"> HTML Binding</h2>
+<h2 class="StaticClass" :class="adstyle"> HTML Binding</h2>
+
+<button v-on:click="coler=!coler">apply</button>
+<button v-on:click="coler=!colap">apply</button>
+
+
 </template>
 
 <script>
-import user from './user.vue'
 export default {
     name: 'Home-item',
-    components: {
-        user
-
-    },
     data() {
         return {
-            users: [{
-                    name: 'nik',
-                    email: 'nik@test.com'
-                },
-                {
-                    name: 'nikh',
-                    email: 'nikh@test.com'
-                },
+            coler: true,
+            colap:false
 
-                {
-                    name: 'niki',
-                    email: 'niki@test.com'
-                },
+        }
+    },
+    computed :{
+        adstyle(){
 
-                {
-                    name: 'nikl',
-                    email: 'nikl@test.com'
-                }
-
-            ]
+            return{
+                green:this.coler,
+                err:true
+            }
         }
     }
 
@@ -48,17 +34,41 @@ export default {
 <style scoped>
 h2 {
     color: rgb(127, 138, 255);
-}li{
+    text-align: center;
+}
 
-    background-color: aqua;
-    position: relative;
-    padding: 20px;
-    text-decoration: none;
-    padding-left: 10px;
-    margin-left: 20px;
-    display: initial;
-    border: 2px solid black;
+.green {
+    background-color: rgb(248, 135, 115);
+    color: #fff;
+    padding: 10px;
+    border: 3px solid rgb(11, 9, 9);
+    width: 200px;
+    text-align: center;
+
+}
+
+.green:hover {
+    background-color: rgb(251, 139, 139);
+}
+.err{
     font-family: monospace;
-    border-bottom: 3px solid black;
+    color: rgb(26, 22, 22);
+}
+.gree {
+    background-color: rgb(248, 135, 115);
+    color: #fff;
+    padding: 10px;
+    border: 3px solid rgb(11, 9, 9);
+    width: 200px;
+    text-align: center;
+
+}
+
+.gree:hover {
+    background-color: rgb(251, 139, 139);
+}
+.err{
+    font-family: monospace;
+    color: rgb(26, 22, 22);
 }
 </style>
