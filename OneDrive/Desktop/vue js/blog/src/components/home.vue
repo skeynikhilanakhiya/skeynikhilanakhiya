@@ -1,74 +1,63 @@
 <template>
-<h2 class="StaticClass" :class="adstyle"> HTML Binding</h2>
-<h2 class="StaticClass" :class="adstyle"> HTML Binding</h2>
+    <h2>Simple Form</h2>
+    <p>{{ form }}</p>
+    <form>
+        <label for="email">Email :</label>
+        <input type="email" placeholder="Email" v-model="form.email"><br><br>
+        <label for="Password">Password :</label>
+        <input type="Password" placeholder="Password" v-model="form.password"><br><br>
+        <select v-model="form.country">
+            <option>India</option>
+            <option>USA</option>
+            <option>Rassia</option>
+        </select><br>
+        <h2>Gender</h2>
+        <label for="male">Male :</label>
+        <input type="radio" name="gender" value="male" v-model="form.gender"><br><br>
+        <label for="Fe male">Fe-Male :</label>
+        <input type="radio" name="gender" value="fe-male" v-model="form.gender"><br><br>
+        <h2>Technology</h2>
+        <label>PHP :</label>
+        <input type="checkbox" value='Php' v-model="form.technology"><br><br>
+        <label>Java :</label>
+        <input type="checkbox" value='Java' v-model="form.technology"><br><br>
+        <button type="button" v-on:click="login">Login</button>
 
-<button v-on:click="coler=!coler">apply</button>
-<button v-on:click="coler=!colap">apply</button>
-
-
+    </form>
 </template>
 
 <script>
 export default {
-    name: 'Home-item',
+    name: 'Home-',
     data() {
         return {
-            coler: true,
-            colap:false
-
-        }
-    },
-    computed :{
-        adstyle(){
-
-            return{
-                green:this.coler,
-                err:true
+            form: {
+                email: '',
+                password: '',
+                country: '',
+                gender: '',
+                technology: []
             }
         }
+    },
+    methods: {
+        login() {
+            console.log(this.form)
+        }
     }
-
 }
 </script>
-
 <style scoped>
 h2 {
-    color: rgb(127, 138, 255);
-    text-align: center;
+    color: lawngreen;
 }
 
-.green {
-    background-color: rgb(248, 135, 115);
-    color: #fff;
-    padding: 10px;
-    border: 3px solid rgb(11, 9, 9);
-    width: 200px;
-    text-align: center;
+label {
+    margin: 10px;
 
 }
 
-.green:hover {
-    background-color: rgb(251, 139, 139);
-}
-.err{
-    font-family: monospace;
-    color: rgb(26, 22, 22);
-}
-.gree {
-    background-color: rgb(248, 135, 115);
-    color: #fff;
-    padding: 10px;
-    border: 3px solid rgb(11, 9, 9);
-    width: 200px;
-    text-align: center;
-
-}
-
-.gree:hover {
-    background-color: rgb(251, 139, 139);
-}
-.err{
-    font-family: monospace;
-    color: rgb(26, 22, 22);
+button {
+    margin: 10px;
 }
 </style>
