@@ -29,7 +29,7 @@ export default {
 
 </style>
 -->
-<style scoped>
+<style >
 #app {
    text-align: center;
  }
