@@ -9,7 +9,7 @@
         <select v-model="form.country">
             <option>India</option>
             <option>USA</option>
-            <option>Rassia</option>
+            <option>Rush</option>
         </select><br>
         <h2>Gender</h2>
         <label for="male">Male :</label>
