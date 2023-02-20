@@ -1,16 +1,16 @@
 <template>
 <img alt="Vue logo" src="./assets/logo.png">
-<HelloWorld msg="Welcome to nikhil vue .js" />
+<!-- <HelloWorld msg="Welcome to nikhil vue .js" /> -->
 <home />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
 import home from './components/home.vue'
 export default {
     name: 'App',
     components: {
-        HelloWorld,
+        // HelloWorld,
         home,
     }
 }
@@ -29,7 +29,7 @@ export default {
 
 </style>
 -->
-<style>
+<style scoped>
 #app {
    text-align: center;
  }
