@@ -1,7 +1,8 @@
 <template>
 <h2>Teleport Components</h2>
 <button v-on:click="get()">click me  </button>
-<p>Hello Guys you are the most help[ full persone in the my programming life ]</p>
+<h2>Hello world of the bst persone you the most popular persone in the world.</h2>
+ <p>hello guys you  are he most persone in the world in components</p>
 <Teleport to="#footer">
     <footer1 />
 </Teleport>
