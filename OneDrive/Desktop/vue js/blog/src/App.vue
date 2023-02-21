@@ -1,18 +1,22 @@
+
 <template>
-<img alt="Vue logo" src="./assets/logo.png">
-<!-- <HelloWorld msg="Welcome to nikhil vue .js" /> -->
-<home />
+    <router-link to="/">Home</router-link><br />
+    <router-link to="/login">Login</router-link><br />
+    <!-- <router-link to="/profile">Profile</router-link><br /> -->
+    <router-link to="/profile/1">Jon Profile</router-link><br />
+    <router-link to="/profile/2">Niky Profile</router-link><br />
+    <router-link to="/profile/3">LoL Profile</router-link><br />
+
+
+    <router-view></router-view>
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
-import home from './components/home.vue'
+
 export default {
     name: 'App',
-    components: {
-        // HelloWorld,
-        home,
-    }
+
 }
 </script>
 
@@ -29,8 +33,8 @@ export default {
 
 </style>
 -->
-<style >
+<style>
 #app {
-   text-align: center;
- }
+    text-align: center;
+}
 </style>
