@@ -1,0 +1,58 @@
+{
+  "user": [
+    {
+      "name": "nikhil",
+      "email": "nik@tets.com",
+      "password": "123",
+      "id": 1
+    },
+    {
+      "name": "nikhil",
+      "email": "nik@tets.com",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "name": "abc",
+      "email": "abc@tets.com",
+      "password": "abc@123",
+      "id": 3
+    },
+    {
+      "name": "pqr",
+      "email": "pqr@tets.com",
+      "password": "pqr@123",
+      "id": 4
+    },
+    {
+      "name": "mno",
+      "email": "mno@tets.com",
+      "password": "mno@123",
+      "id": 5
+    },
+    {
+      "name": "ops",
+      "email": "ops@tets.com",
+      "password": "ops@123",
+      "id": 6
+    },
+    {
+      "name": "ops",
+      "email": "ops@tets.com",
+      "password": "ops@123",
+      "id": 7
+    },
+    {
+      "name": "ops",
+      "email": "ops@tets.com",
+      "password": "ops@123",
+      "id": 8
+    },
+    {
+      "name": "ops",
+      "email": "ops@tets.com",
+      "password": "ops@123",
+      "id": 9
+    }
+  ]
+}
