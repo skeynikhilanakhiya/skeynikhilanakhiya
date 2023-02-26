@@ -78,7 +78,7 @@
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Awesome Pink Show</a></h3>
+                                                <h3><a href="product-details.html">Men Shirt Collection</a></h3>
                                                 <div class="product-price">
                                                     <span>$29.00</span>
                                                 </div>
@@ -104,7 +104,7 @@
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Awesome Man Collection</a></h3>
+                                                <h3><a href="product-details.html">Collar T-shirt Collection</a></h3>
                                                 <div class="product-price">
                                                     <span>$29.00</span>
                                                 </div>
@@ -131,7 +131,7 @@
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Men Shirt Collectons</a></h3>
+                                                <h3><a href="product-details.html">Men bruce Collectons</a></h3>
                                                 <div class="product-price">
                                                     <span>$29.00</span>
                                                 </div>
@@ -157,7 +157,7 @@
                                                 </div>
                                             </div>
                                             <div class="product-content">
-                                                <h3><a href="product-details.html">Awesome Shirt Collection</a></h3>
+                                                <h3><a href="product-details.html"> Pocket shirt Collection For Men</a></h3>
                                                 <div class="product-price">
                                                     <span>$29.00</span>
                                                 </div>
