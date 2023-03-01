@@ -1,16 +1,16 @@
 <template>
 <!-- Start Single Tab -->
-<div class="tab-pane fade show active" id="man" role="tabpanel" style=" margin-right: -34px ;display: flex;
-                        flex-wrap: wrap;">
+<div class="tab-pane fade show active" role="tabpanel" style=" margin-right: -34px ;display: flex;
+                   flex-wrap: wrap;">
     <div class="tab-single">
         <div class="row" style="margin-right: -298px;">
             <div class="col-xl-3 col-lg-4 col-md-4 col-12" style="  flex: 14 0 25%;
-                      max-width: 49%;">
+                          max-width: 49%;">
                 <div class="single-product">
                     <div class="product-img">
                         <a href="product-details.html">
-                            <img class="default-img" src="https://via.placeholder.com/550x750" alt="#">
-                            <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#">
+                            <img :src=" product.thumbnail">
+                    
                         </a>
                         <div class="button-head">
                             <div class="product-action">
@@ -27,10 +27,9 @@
                         </div>
                     </div>
                     <div class="product-content">
-                        <h3><a href="product-details.html">{{ product.title }} Hot
-                                Collection</a></h3>
+                        <h3><a href="product-details.html">{{ product.title }} </a></h3>
                         <div class="product-price">
-                            <span>$29.00</span>
+                            <span>${{ product.price }}.00</span>
                         </div>
                     </div>
                 </div>
@@ -41,14 +40,16 @@
 </div>
 </template>
 
+    
 <script>
 export default {
     name: "productitem-",
-    props: ['product', 'productss']
+    props: ['product']
 
 }
 </script>
 
+    
 <style>
 .single-product {
 

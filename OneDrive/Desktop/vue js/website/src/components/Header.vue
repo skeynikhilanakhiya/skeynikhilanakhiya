@@ -90,13 +90,13 @@
                                 <ul class="shopping-list">
                                     <li>
                                         <a href="#" class="remove" title="Remove this item"><i class="fa fa-remove"></i></a>
-                                        <a class="cart-img" href="#"><img src="https://via.placeholder.com/70x70" alt="#"></a>
+                                        <a class="cart-img" href="#"><img src="https://source.unsplash.com/random/900x700/?Ring" alt="#"></a>
                                         <h4><a href="#">Woman Ring</a></h4>
                                         <p class="quantity">1x - <span class="amount">$99.00</span></p>
                                     </li>
                                     <li>
                                         <a href="#" class="remove" title="Remove this item"><i class="fa fa-remove"></i></a>
-                                        <a class="cart-img" href="#"><img src="https://via.placeholder.com/70x70" alt="#"></a>
+                                        <a class="cart-img" href="#"><img src="https://source.unsplash.com/random/900x700/?Nacklace" alt="#"></a>
                                         <h4><a href="#">Woman Necklace</a></h4>
                                         <p class="quantity">1x - <span class="amount">$35.00</span></p>
                                     </li>
@@ -143,7 +143,7 @@
                                         <li class="single-menu">
                                             <a href="#" class="title-link">Shop Kid's</a>
                                             <div class="image">
-                                                <img src="../assets/image/kid.jpg" alt="#" height="120px">
+                                                <img src="https://source.unsplash.com/random/900x700/?toy" alt="#" height="120px">
                                             </div>
                                             <div class="inner-link">
                                                 <a href="#">Kids Toys</a>
@@ -155,7 +155,7 @@
                                         <li class="single-menu">
                                             <a href="#" class="title-link">Shop Men's</a>
                                             <div class="image">
-                                                <img src="../assets/image/men.jpg" alt="#" height="120px">
+                                                <img src="https://source.unsplash.com/random/900x700/?watch" alt="#" height="120px">
                                             </div>
                                             <div class="inner-link">
                                                 <a href="#">Watch</a>
@@ -167,7 +167,7 @@
                                         <li class="single-menu">
                                             <a href="#" class="title-link">Shop Women's</a>
                                             <div class="image">
-                                                <img src="../assets/image/women.jpg" alt="#">
+                                                <img src="https://source.unsplash.com/random/900x700/?ring" alt="#">
                                             </div>
                                             <div class="inner-link">
                                                 <a href="#">Ladies Shirt</a>

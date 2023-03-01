@@ -14,7 +14,7 @@
 				<div class="col-lg-4 col-md-6 col-12">
 					<!-- Start Single Blog  -->
 					<div class="shop-single-blog">
-						<img src="https://via.placeholder.com/370x300" alt="#">
+						<img src="https://source.unsplash.com/random/900x700/?toy" alt="#">
 						<div class="content">
 							<p class="date">22 July , 2020. Monday</p>
 							<a href="#" class="title">Sed adipiscing ornare.</a>
@@ -26,7 +26,7 @@
 				<div class="col-lg-4 col-md-6 col-12">
 					<!-- Start Single Blog  -->
 					<div class="shop-single-blog">
-						<img src="https://via.placeholder.com/370x300" alt="#">
+						<img src="https://source.unsplash.com/random/900x700/?Winter man " alt="#">
 						<div class="content">
 							<p class="date">22 July, 2020. Monday</p>
 							<a href="#" class="title">Man’s Fashion Winter Sale</a>
@@ -38,7 +38,7 @@
 				<div class="col-lg-4 col-md-6 col-12">
 					<!-- Start Single Blog  -->
 					<div class="shop-single-blog">
-						<img src="https://via.placeholder.com/370x300" alt="#">
+						<img src="https://source.unsplash.com/random/900x700/?girls" alt="#">
 						<div class="content">
 							<p class="date">22 July, 2020. Monday</p>
 							<a href="#" class="title">Women Fashion Festive</a>

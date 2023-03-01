@@ -1215,7 +1215,7 @@ Version:1.0
 }
 .hero-slider .single-slider {
 	height: auto;
-	background-image: url('../image/b94f9c7cadde8ac962e41dc56bb1efdb.jpg');
+	background-image: url('https://source.unsplash.com/random/900x700/?shirt man');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1555,14 +1555,15 @@ Version:1.0
 	font-size: 22px;
 	font-weight: 700;
 	text-transform: capitalize;
-	color: #333;
+	color: #fef7f7;
 }
 .small-banner .single-banner h3 span{
 	color:#F7941D;
 }
 .small-banner .single-banner p {
 	font-size: 14px;
-	color: #F7941D;
+	color: #10100f;
+	background-color:yellow ;
 	font-weight: 500;
 	margin-bottom: 5px;
 	text-transform: capitalize;
@@ -1578,8 +1579,8 @@ Version:1.0
 	border-bottom:2px solid #333;
 }
 .small-banner .single-banner a:hover{
-	color:#F7941D;
-	border-color:#F7941D;
+	color:#181716;
+	background-color:#ece8e3;
 }
 /*======================================
    End Small Banner CSS
@@ -1612,16 +1613,17 @@ Version:1.0
 	font-size: 27px;
 	font-weight: 700;
 	text-transform: uppercase;
-	color: #333;
+	color: #f4eded;
 	line-height: 30px;
 }
 .midium-banner .single-banner h3 span{
-	color:#F7941D;
+	color:#e7e7dd;
 }
 .midium-banner .single-banner p {
 	font-size: 13px;
-	color: #F7941D;
+	color: #f5f1ed;
 	font-weight: 500;
+	background-color: #2ecc71;
 	margin-bottom: 5px;
 	text-transform: uppercase;
 }

@@ -18,15 +18,6 @@ import { reset } from "./assets/css/reset.css"
 import { responsive } from "./assets/css/responsive.css"
 import { slicknav } from "./assets/css/slicknav.min.css"
 import { themify } from "./assets/css/themify-icons.css"
-// import {active } from "../src/assets/js/active.js"
-// import { easing} from "../src/assets/js/easing"
-// import {flex } from "../src/assets/js/flex-slider"
-// import {jquery } from "../src/assets/js/jquery-migrate-3.0.0"
-// import {magnific} from "../src/assets/js/magnific-popup"
-// import {map } from "../src/assets/js/map-script"
-// import { nicee} from "../src/assets/js/nicesellect"
-// import {owlcro } from "../src/assets/js/owl-carousel"
-// import {scroll } from "../src/assets/js/scrollup"
 
 
 createApp(App).use(popup).use(nice).use(niceselect).use(owl).use(reset).use(responsive).use(slicknav).use(themify).use(popupmin).use(animation).use(flexslider).use(fancybox).use(bootstrap).use(fontawesome).use(style).mount("#app");
