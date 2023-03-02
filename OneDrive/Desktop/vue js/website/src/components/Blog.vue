@@ -38,7 +38,7 @@
 				<div class="col-lg-4 col-md-6 col-12">
 					<!-- Start Single Blog  -->
 					<div class="shop-single-blog">
-						<img src="https://source.unsplash.com/random/900x700/?girls" alt="#">
+						<img src="https://source.unsplash.com/random/900x700/?women fashion" alt="#">
 						<div class="content">
 							<p class="date">22 July, 2020. Monday</p>
 							<a href="#" class="title">Women Fashion Festive</a>
