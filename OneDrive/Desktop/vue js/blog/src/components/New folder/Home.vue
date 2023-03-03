@@ -1,46 +1,35 @@
-<template>
-    <h1>H<span style="color: blue;">o</span><span style="color:violet">m</span>e</h1>
-<ul class="item" v-for="item in list" :key="item"><li>{{ item.id  }} </li><li> {{ item.email }}</li><li>{{ item.last_name }}</li><li><img :src="item.avatar" alt=""></li></ul>
-</template>
-<script>
-import axios from 'axios'
-export default {
-    name: 'Home-page',
 
-    data(){
-        return{
-            list:[],
-        };
+<template>
+
+    <h2>Input-field values</h2>
+<input type="email" placeholder="email" v-model="email" required><br><br>
+<input type="password" placeholder="password" v-model="password" required><br><br>
+<button v-on:click="get()" type="button">Get field values</button> 
+
+</template>
+
+
+
+
+
+
+
+<!-- input-field value -->
+
+
+<script>
+export default {
+    name: 'input_field_value',
+    data() {
+        return {
+            email: null,
+            password: null,
+        }
     },
-    async mounted(){
-        let result = await axios.get("https://reqres.in/api/users?page=1")
-    console.log("api call",result.data.data);
-    this.list=result.data.data
+    methods: {
+        get() {
+            console.log("value :", this.email, this.password)
+        }
     }
 }
-
 </script>
-<style>
-h1 {
-    color: orange;
-}
-::selection{
-    color :blue;
-}
-.item li{
-    display: inline-block;
-  border: 3px solid black;
-  padding: 10px;
-  margin: 1px;
-  width: 170px;
-}
-.item img{
-    display: inline-flex;
-  border: 3px solid black;
-  width: 50px;
-   
-}
-.item{
-    display: flex;
-}
-</style>
