@@ -1,3 +1,4 @@
+
 <template>
 <header class="header shop">
     <!-- Topbar -->
@@ -203,7 +204,7 @@
                                                 <ul class="dropdown">
                                                     <li><a href="../shop-grid.html">Shop Grid</a></li>
                                                     <li><a href="../cart.html">Cart</a></li>
-                                                    <li><a href="../checkout.html">Checkout</a></li>
+                                                    <li><a href="./checkout.vue">Checkout</a></li>
                                                 </ul>
                                             </li>
                                             <li><a href="#">Pages</a></li>
@@ -226,12 +227,18 @@
         </div>
     </div>
     <!--/ End Header Inner -->
+    <Check />
 </header>
 </template>
 
+
+
 <script>
+import  {Check} from './checkout.vue'
 export default {
     name: 'Header-',
-
+component:{
+    Check
+},
 }
 </script>

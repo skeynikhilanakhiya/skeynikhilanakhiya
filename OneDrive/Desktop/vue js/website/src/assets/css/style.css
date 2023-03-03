@@ -611,6 +611,7 @@ Version:1.0
 .header.shop .topbar {
 	background-color: #fff;
 	border: none;
+	margin-top: -46px;
 }
 .header.shop.v3 .topbar{
 	padding:0;

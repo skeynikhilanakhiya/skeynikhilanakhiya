@@ -18,6 +18,9 @@ import { reset } from "./assets/css/reset.css"
 import { responsive } from "./assets/css/responsive.css"
 import { slicknav } from "./assets/css/slicknav.min.css"
 import { themify } from "./assets/css/themify-icons.css"
+import { classa } from "./assets/js/class.js"
+
+createApp(App).use(popup).use(nice).use(niceselect).use(owl).use(reset).use(responsive).use(slicknav).use(themify).use(popupmin).use(animation).use(flexslider).use(fancybox).use(bootstrap).use(fontawesome).use(style).use(classa).mount("#app");
 
 
-createApp(App).use(popup).use(nice).use(niceselect).use(owl).use(reset).use(responsive).use(slicknav).use(themify).use(popupmin).use(animation).use(flexslider).use(fancybox).use(bootstrap).use(fontawesome).use(style).mount("#app");
+    
